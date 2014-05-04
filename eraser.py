@@ -1,16 +1,5 @@
 #!/usr/bin/env python
 
-"""
-define PTRACE_TRACEME             0
-define PTRACE_PEEKTEXT            1
-define PTRACE_PEEKDATA            2
-define PTRACE_PEEKUSR             3
-define PTRACE_POKETEXT            4
-define PTRACE_POKEUSR             6
-define PTRACE_CONT                7
-define PTRACE_KILL                8
-"""
-
 PTRACE_POKEDATA = 5
 PTRACE_ATTACH = 16
 PTRACE_DETACH = 17
